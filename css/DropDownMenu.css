@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,500');
 body{
-  font: 300 16px/1.2 'Oxygen', sans-serif;
+  font: 300 16px/1.2 Oxygen;
   padding:25px;
 }
 .nav{
