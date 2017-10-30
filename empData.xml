@@ -1,0 +1,37 @@
+<Employees>
+    <Employee id="1">
+        <SalesPerson>John Doe</SalesPerson>
+        <Title>Sales Representative</Title>
+        <Birthdate>June 30,1989</Birthdate>
+        <Hiredate>May 1,2013</Hiredate>
+        <Extension>1232</Extension>
+    </Employee>
+    <Employee id="2">
+        <SalesPerson>Bryan Adams</SalesPerson>
+        <Title>Sales Representative</Title>
+        <Birthdate>January 15,1968</Birthdate>
+        <Hiredate>March 1,2010</Hiredate>
+        <Extension>3234</Extension>
+    </Employee>
+    <Employee id="3">
+        <SalesPerson>Ashley Wyane</SalesPerson>
+        <Title>Operations</Title>
+        <Birthdate>December 28,1987</Birthdate>
+        <Hiredate>February 10,2012</Hiredate>
+        <Extension>4565</Extension>
+    </Employee>
+    <Employee id="4">
+        <SalesPerson>Willy Jones</SalesPerson>
+        <Title>IT Executive</Title>
+        <Birthdate>February 28,1989</Birthdate>
+        <Hiredate>May 1,2013</Hiredate>
+        <Extension>7898</Extension>
+    </Employee>
+    <Employee id="5">
+        <SalesPerson>James Gordon</SalesPerson>
+        <Title>Deputy Police Head</Title>
+        <Birthdate>June 01,1970</Birthdate>
+        <Hiredate>January 1,2006</Hiredate>
+        <Extension>1002</Extension>
+    </Employee>    
+</Employees>
