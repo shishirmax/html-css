@@ -1,0 +1,36 @@
+<html>
+    <script type="text/javascript">
+
+        function isNumberKey(evt, obj) {
+
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            var value = obj.value;
+            var dotcontains = value.indexOf(".") != -1;
+            if (dotcontains)
+                if (charCode == 46) return false;
+            if (charCode == 46) return true;
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+            return true;
+        }
+
+        function validDecimal(str){
+            if (str.indexOf('.') == -1) str += ".";
+            var decNum = str.substring(str.indexOf('.')+1, str.length);
+            if (decNum.length > 2)//here is the key u can just change from 2 to 3,45 etc to restict no of digits aftre decimal
+                {
+                    alert("Invalid more than 2 digits after decimal")
+                }
+            else 
+            {
+                alert("Valid no")
+            }
+        }       
+
+
+
+    </script>
+<body>    
+    <input type="text" ID="txt" onkeypress="return validDecimal(this)">
+</body>
+</html>
